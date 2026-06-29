@@ -1,0 +1,74 @@
+<script lang="ts">
+	import { t } from '$lib/i18n';
+</script>
+
+<main>
+	<div class="content">
+		<h1>{$t.contactMe}</h1>
+
+		<div class="socials">
+			<a href="https://instagram.com/tingzhen0518" target="_blank" rel="noopener">
+				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+					<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+					<circle cx="12" cy="12" r="4"/>
+					<circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+				</svg>
+				<span>@tingzhen0518</span>
+			</a>
+			<a href="mailto:tingcellostudio@gmail.com">
+				<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+					<rect x="2" y="4" width="20" height="16" rx="2"/>
+					<polyline points="2,4 12,13 22,4"/>
+				</svg>
+				<span>tingcellostudio@gmail.com</span>
+			</a>
+		</div>
+	</div>
+</main>
+
+<style>
+	main {
+		min-height: 100dvh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 5rem 1.5rem 2rem;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		max-width: 420px;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		letter-spacing: -0.02em;
+		color: var(--color-1);
+		margin: 0;
+	}
+
+	.socials {
+		display: flex;
+		flex-direction: column;
+		gap: 1.25rem;
+	}
+
+	.socials a {
+		display: flex;
+		align-items: center;
+		gap: 0.75rem;
+		text-decoration: none;
+		color: var(--color-1);
+		font-size: 0.95rem;
+		letter-spacing: 0.03em;
+		transition: color 0.2s;
+	}
+
+	.socials a:hover {
+		color: var(--color-2);
+	}
+</style>

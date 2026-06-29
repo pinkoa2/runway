@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx sv *)",
+      "Bash(npm create *)",
+      "Bash(yarn dev *)"
+    ]
+  }
+}

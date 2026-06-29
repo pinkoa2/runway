@@ -1,0 +1,17 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color-1: #5d8aa8;
+	--color-2: #7da1b9;
+	--color-3: #9eb9cb;
+	--color-4: #bed0dc;
+	--color-5: #dfe8ee;
+
+	background-color: var(--color-5);
+	color: #1a2a35;
+	font-family: Georgia, 'Times New Roman', serif;
+}
