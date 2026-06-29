@@ -58,7 +58,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
-		max-width: 420px;
+		max-width: 580px;
 		width: 100%;
 	}
 
@@ -71,7 +71,7 @@
 	}
 
 	.title {
-		font-size: 0.9rem;
+		font-size: 1rem;
 		letter-spacing: 0.15em;
 		text-transform: uppercase;
 		margin: 0;
@@ -79,7 +79,7 @@
 	}
 
 	.intro {
-		font-size: 0.95rem;
+		font-size: 1.05rem;
 		line-height: 1.7;
 		margin: 0;
 		color: #2a3e4c;
@@ -96,11 +96,11 @@
 
 	.btn {
 		display: block;
-		padding: 0.75rem 1.5rem;
+		padding: 0.9rem 2rem;
 		border: 1.5px solid var(--color-2);
 		border-radius: 999px;
 		text-decoration: none;
-		font-size: 0.9rem;
+		font-size: 1.05rem;
 		letter-spacing: 0.05em;
 		text-align: center;
 		color: var(--color-1);
@@ -134,7 +134,7 @@
 		}
 
 		.name {
-			font-size: 2.8rem;
+			font-size: 3rem;
 		}
 
 		nav {

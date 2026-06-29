@@ -3,7 +3,12 @@
     "allow": [
       "Bash(npx sv *)",
       "Bash(npm create *)",
-      "Bash(yarn dev *)"
+      "Bash(yarn dev *)",
+      "Bash(gh api *)",
+      "Skill(update-config)",
+      "Bash(git -C /home/alex/projects/runway add -A)",
+      "Bash(git -C /home/alex/projects/runway commit -m \"style: increase font sizes, text width, and button size on main page\")",
+      "Bash(git -C /home/alex/projects/runway push)"
     ]
   }
 }
