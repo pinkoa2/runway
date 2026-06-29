@@ -72,6 +72,13 @@ Placeholder — content TBD.
 | `--color-4` | `#bed0dc` | Hover fills, dividers        |
 | `--color-5` | `#dfe8ee` | Background                   |
 
+## Hosting
+
+- **Platform**: GitHub Pages (free)
+- **Domain**: tingcellostudio.org (purchased on Porkbun)
+- **CI/CD**: GitHub Actions — auto-deploys on every push to main
+- **DNS**: Porkbun nameservers pointed to GitHub Pages
+
 ## Notes
 
 - The site must support English and Mandarin throughout.
