@@ -44,11 +44,21 @@
 </header>
 
 {#if menuOpen}
-	<nav class="menu-overlay" onclick={() => (menuOpen = false)}>
-		<a href="/">{$lang === 'en' ? 'Home' : '主页'}</a>
-		<a href="/about">{$t.aboutMe}</a>
-		<a href="/contact">{$t.contactMe}</a>
-	</nav>
+	<div
+		class="menu-overlay"
+		role="button"
+		tabindex="0"
+		onclick={() => (menuOpen = false)}
+		onkeydown={(e) => {
+			if (e.key === 'Enter' || e.key === ' ') menuOpen = false;
+		}}
+	>
+		<nav>
+			<a href="/">{$lang === 'en' ? 'Home' : '主页'}</a>
+			<a href="/about">{$t.aboutMe}</a>
+			<a href="/contact">{$t.contactMe}</a>
+		</nav>
+	</div>
 {/if}
 
 {@render children()}
@@ -118,6 +128,10 @@
 		align-items: center;
 		justify-content: center;
 		gap: 2.5rem;
+	}
+
+	.menu-overlay nav {
+		display: contents;
 	}
 
 	.menu-overlay a {
