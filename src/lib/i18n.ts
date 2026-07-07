@@ -19,6 +19,8 @@ const translations = {
 		formSending: 'Sending...',
 		formSuccess: "Thanks! Your message has been sent.",
 		formError: 'Something went wrong. Please try again or email me directly.',
+		scanToVisit: 'Scan to visit',
+		qrCode: 'QR Code',
 	},
 	zh: {
 		name: '陳婷辰',
@@ -34,6 +36,8 @@ const translations = {
 		formSending: '傳送中...',
 		formSuccess: '謝謝！您的訊息已送出。',
 		formError: '發生錯誤，請再試一次或直接寄信給我。',
+		scanToVisit: '掃描造訪網站',
+		qrCode: 'QR Code',
 	},
 } as const;
 

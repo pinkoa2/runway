@@ -57,6 +57,7 @@
 			<a href="/">{$lang === 'en' ? 'Home' : '主页'}</a>
 			<a href="/about">{$t.aboutMe}</a>
 			<a href="/contact">{$t.contactMe}</a>
+			<a href="/qr">{$t.qrCode}</a>
 		</nav>
 	</div>
 {/if}
