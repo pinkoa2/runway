@@ -12,11 +12,15 @@
 		menuOpen = !menuOpen;
 		hinted = true;
 	}
+
+	$effect(() => {
+		document.documentElement.lang = $lang === 'zh' ? 'zh-Hant' : 'en';
+	});
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet" />
 </svelte:head>
 
 <header>
@@ -54,8 +58,9 @@
 		}}
 	>
 		<nav>
-			<a href="/">{$lang === 'en' ? 'Home' : '主页'}</a>
+			<a href="/">{$t.home}</a>
 			<a href="/about">{$t.aboutMe}</a>
+			<a href="/educator">{$t.educator}</a>
 			<a href="/contact">{$t.contactMe}</a>
 			<a href="/qr">{$t.qrCode}</a>
 		</nav>

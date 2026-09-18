@@ -28,7 +28,7 @@ A polished, professional web presence for Ting-Chen Chen — a cellist and inter
 ## Layout & Navigation
 
 - Fixed header with **language toggle on the left** and **hamburger menu (☰) on the right**.
-- The hamburger opens a full-screen overlay with links to Home, About Me, and Contact Me.
+- The hamburger opens a full-screen overlay with links to Home, About Me, Educator, Contact Me, and QR Code.
 - A fun hand-drawn "click me" doodle (Caveat font + SVG wobbly arrow) points at the menu button and disappears after first click.
 
 ## Pages
@@ -41,11 +41,28 @@ A polished, professional web presence for Ting-Chen Chen — a cellist and inter
   - Name: Ting-Chen Chen
   - Title: Cellist
   - Intro bio paragraph
-  - Two pill buttons: About Me, Contact Me
+  - Three pill buttons: About Me, Educator, Contact Me
 
 ### About Me (`/about`)
 
 Placeholder — content TBD.
+
+### Educator (`/educator`)
+
+Teaching page. Single scrolling column (max 640px mobile / 860px desktop). Sections in order:
+
+1. **Teaching Philosophy** — eyebrow, headline ("Music, woven into the fabric of life."), tagline.
+2. **Core Values** — four cards (2×2 grid on desktop). Each card shows a number, title, and the *short* blurb; tapping expands it in place to reveal the *long* paragraph. One card open at a time. Cards are `<button>`s with `aria-expanded`.
+3. **Lessons** — intro line ("I teach beginners, advanced students, and adults." — the brief's "Who I Teach" list, folded into a sentence), then two columns on desktop: Private Cello Lessons (all levels) and Cello Ensembles, each with a bullet list.
+4. **CTA** — links to `/contact`. A trial-lesson / scheduling sign-up is a possible future addition.
+
+Sections from the original brief with no copy yet are intentionally not rendered: Teaching Approach, Musical Exploration, Audition & Performance Preparation, Student Experience, FAQ.
+
+All copy lives under `t.edu` in `src/lib/i18n.ts`.
+
+### QR Code (`/qr`)
+
+Displays a QR code linking to the site.
 
 ### Contact Me (`/contact`)
 
@@ -60,7 +77,9 @@ Placeholder — content TBD.
 - **Language**: TypeScript
 - **Package manager**: Yarn
 - **Styling**: Plain CSS with CSS custom properties
-- **Fonts**: Caveat (Google Fonts) for doodle text
+- **Fonts**: Georgia for body; Noto Serif TC (Google Fonts) as the CJK fallback so Mandarin renders in a matching serif; Caveat (Google Fonts) for doodle text
+- **Shared styles**: `.btn` pill button and `--text` / `--text-soft` colors live in `src/app.css`
+- **`<html lang>`** is synced to the language toggle (`en` / `zh-Hant`) from `+layout.svelte`
 
 ## Color Palette — Air Force Blue
 

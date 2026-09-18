@@ -39,8 +39,12 @@ src/
     +page.svelte     # Main landing page
     about/
       +page.svelte   # About Me page
+    educator/
+      +page.svelte   # Teaching philosophy, core values, lessons
     contact/
       +page.svelte   # Contact page (Instagram + email)
+    qr/
+      +page.svelte   # QR code linking to the site
   app.css            # Global styles and color palette
 static/
   portrait.jpg       # Main photo — replace with real image

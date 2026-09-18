@@ -11,7 +11,30 @@
 	--color-4: #bed0dc;
 	--color-5: #dfe8ee;
 
+	--text: #1a2a35;
+	--text-soft: #2a3e4c;
+
 	background-color: var(--color-5);
-	color: #1a2a35;
-	font-family: Georgia, 'Times New Roman', serif;
+	color: var(--text);
+	/* Latin glyphs come from Georgia; CJK glyphs fall through to a serif TC face. */
+	font-family: Georgia, 'Times New Roman', 'Noto Serif TC', 'Songti TC', 'PMingLiU', serif;
+}
+
+/* Shared pill button (home, educator CTA). */
+.btn {
+	display: block;
+	padding: 0.9rem 2rem;
+	border: 1.5px solid var(--color-2);
+	border-radius: 999px;
+	text-decoration: none;
+	font-size: 1.05rem;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: var(--color-1);
+	transition: background 0.2s, border-color 0.2s;
+}
+
+.btn:hover {
+	background: var(--color-4);
+	border-color: var(--color-1);
 }

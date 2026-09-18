@@ -15,6 +15,7 @@
 
 			<nav>
 				<a href="/about" class="btn">{$t.aboutMe}</a>
+				<a href="/educator" class="btn">{$t.educator}</a>
 				<a href="/contact" class="btn">{$t.contactMe}</a>
 			</nav>
 		</div>
@@ -82,7 +83,7 @@
 		font-size: 1.05rem;
 		line-height: 1.7;
 		margin: 0;
-		color: #2a3e4c;
+		color: var(--text-soft);
 		padding-top: 0.25rem;
 		border-top: 1px solid var(--color-4);
 	}
@@ -92,24 +93,6 @@
 		flex-direction: column;
 		gap: 0.75rem;
 		margin-top: 0.5rem;
-	}
-
-	.btn {
-		display: block;
-		padding: 0.9rem 2rem;
-		border: 1.5px solid var(--color-2);
-		border-radius: 999px;
-		text-decoration: none;
-		font-size: 1.05rem;
-		letter-spacing: 0.05em;
-		text-align: center;
-		color: var(--color-1);
-		transition: background 0.2s, border-color 0.2s;
-	}
-
-	.btn:hover {
-		background: var(--color-4);
-		border-color: var(--color-1);
 	}
 
 	/* --- Desktop: side by side --- */
@@ -139,10 +122,6 @@
 
 		nav {
 			flex-direction: row;
-		}
-
-		.btn {
-			width: auto;
 		}
 	}
 </style>
