@@ -55,9 +55,13 @@ Teaching page. Single scrolling column (max 640px mobile / 860px desktop). Secti
 2. **Teaching Philosophy** — eyebrow, headline ("Music, woven into the fabric of life."), tagline.
 3. **Core Values** — four cards (2×2 grid on desktop). Each card shows a number, title, and the *short* blurb; tapping expands it in place to reveal the *long* paragraph. One card open at a time. Cards are `<button>`s with `aria-expanded`.
 4. **Lessons** — intro line ("I teach beginners, advanced students, and adults." — the brief's "Who I Teach" list, folded into a sentence), then two columns on desktop: Private Cello Lessons (all levels) and Cello Ensembles, each with a bullet list.
-5. **CTA** — links to `/contact`. A trial-lesson / scheduling sign-up is a possible future addition.
+5. **How Lessons Work** — two prose blocks side by side on desktop: Teaching Approach, Musical Exploration. **PLACEHOLDER (Latin) copy.**
+6. **Audition & Performance Preparation** — paragraph + note-bullet list. **PLACEHOLDER copy.**
+7. **Student Experience** — three testimonial cards (quote + attribution), 3-across on desktop. **PLACEHOLDER copy.** May become photos instead, pending her input.
+8. **FAQ** — question rows, tap to expand the answer (same one-open-at-a-time pattern as Core Values). **PLACEHOLDER copy.**
+9. **CTA** — links to `/contact`. A trial-lesson / scheduling sign-up is a possible future addition.
 
-Sections from the original brief with no copy yet are intentionally not rendered: Teaching Approach, Musical Exploration, Audition & Performance Preparation, Student Experience, FAQ.
+Sections 5–8 are laid out with lorem ipsum so the shape can be reviewed; real copy is still needed from her.
 
 All copy lives under `t.edu` in `src/lib/i18n.ts`.
 

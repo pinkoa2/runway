@@ -88,6 +88,45 @@ const translations = {
 				},
 			],
 
+
+			// --- Placeholder sections: Latin copy until real text is supplied ---
+			howHeading: 'How Lessons Work',
+			how: [
+				{
+					title: 'Teaching Approach',
+					body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				},
+				{
+					title: 'Musical Exploration',
+					body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				},
+			],
+
+			auditionHeading: 'Audition & Performance Preparation',
+			auditionBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			auditionItems: [
+				'Lorem ipsum dolor sit amet',
+				'Consectetur adipiscing elit',
+				'Sed do eiusmod tempor',
+				'Ut labore et dolore magna',
+			],
+
+			experienceHeading: 'Student Experience',
+			testimonials: [
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Lorem I., parent' },
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Ipsum D., student' },
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Dolor S., adult student' },
+			],
+
+			faqHeading: 'FAQ',
+			faq: [
+				{ q: 'Lorem ipsum dolor sit amet?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Consectetur adipiscing elit?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Sed do eiusmod tempor incididunt?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Ut enim ad minim veniam?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Quis nostrud exercitation?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+			],
+
 			ctaHeading: 'Interested in lessons?',
 			ctaBody: 'Get in touch to ask about availability or arrange a trial lesson.',
 			ctaButton: 'Contact Me',
@@ -174,6 +213,45 @@ const translations = {
 						'音樂表現力',
 					],
 				},
+			],
+
+
+			// --- 佔位區塊：待提供正式內容 ---
+			howHeading: '課程方式',
+			how: [
+				{
+					title: '教學方法',
+					body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				},
+				{
+					title: '音樂探索',
+					body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+				},
+			],
+
+			auditionHeading: '甄選與演出準備',
+			auditionBody: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			auditionItems: [
+				'Lorem ipsum dolor sit amet',
+				'Consectetur adipiscing elit',
+				'Sed do eiusmod tempor',
+				'Ut labore et dolore magna',
+			],
+
+			experienceHeading: '學生心得',
+			testimonials: [
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Lorem I.，家長' },
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Ipsum D.，學生' },
+				{ quote: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', who: 'Dolor S.，成人學生' },
+			],
+
+			faqHeading: '常見問題',
+			faq: [
+				{ q: 'Lorem ipsum dolor sit amet?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Consectetur adipiscing elit?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Sed do eiusmod tempor incididunt?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Ut enim ad minim veniam?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
+				{ q: 'Quis nostrud exercitation?', a: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.' },
 			],
 
 			ctaHeading: '有興趣上課嗎？',
