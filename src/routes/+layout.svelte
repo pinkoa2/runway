@@ -107,7 +107,10 @@
 
 	.lang-toggle,
 	.menu-btn {
-		background: transparent;
+		/* Translucent fill so the buttons stay legible over photos. */
+		background: rgba(223, 232, 238, 0.85);
+		backdrop-filter: blur(6px);
+		-webkit-backdrop-filter: blur(6px);
 		border: 1.5px solid var(--color-3);
 		border-radius: 999px;
 		padding: 0.5rem 1.2rem;

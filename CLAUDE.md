@@ -27,7 +27,7 @@ A polished, professional web presence for Ting-Chen Chen — a cellist and inter
 
 ## Layout & Navigation
 
-- Fixed header with **language toggle on the left** and **hamburger menu (☰) on the right**.
+- Fixed header with **language toggle on the left** and **hamburger menu (☰) on the right**. Buttons have a translucent `--color-5` fill with backdrop blur so they stay readable over photos.
 - The hamburger opens a full-screen overlay with links to Home, About Me, Educator, Contact Me, and QR Code.
 - A fun hand-drawn "click me" doodle (Caveat font + SVG wobbly arrow) points at the menu button and disappears after first click.
 
@@ -51,10 +51,11 @@ Placeholder — content TBD.
 
 Teaching page. Single scrolling column (max 640px mobile / 860px desktop). Sections in order:
 
-1. **Teaching Philosophy** — eyebrow, headline ("Music, woven into the fabric of life."), tagline.
-2. **Core Values** — four cards (2×2 grid on desktop). Each card shows a number, title, and the *short* blurb; tapping expands it in place to reveal the *long* paragraph. One card open at a time. Cards are `<button>`s with `aria-expanded`.
-3. **Lessons** — intro line ("I teach beginners, advanced students, and adults." — the brief's "Who I Teach" list, folded into a sentence), then two columns on desktop: Private Cello Lessons (all levels) and Cello Ensembles, each with a bullet list.
-4. **CTA** — links to `/contact`. A trial-lesson / scheduling sign-up is a possible future addition.
+1. **Banner** — one teaching photo (`static/teaching.jpg`, currently a stock placeholder — replace with a real one) across the top. Full-bleed 2:1 on mobile; on desktop it sits in the content column (764px wide) at 5:2 with rounded corners and the card shadow, below the fixed header, matching the home page photo treatment.
+2. **Teaching Philosophy** — eyebrow, headline ("Music, woven into the fabric of life."), tagline.
+3. **Core Values** — four cards (2×2 grid on desktop). Each card shows a number, title, and the *short* blurb; tapping expands it in place to reveal the *long* paragraph. One card open at a time. Cards are `<button>`s with `aria-expanded`.
+4. **Lessons** — intro line ("I teach beginners, advanced students, and adults." — the brief's "Who I Teach" list, folded into a sentence), then two columns on desktop: Private Cello Lessons (all levels) and Cello Ensembles, each with a bullet list.
+5. **CTA** — links to `/contact`. A trial-lesson / scheduling sign-up is a possible future addition.
 
 Sections from the original brief with no copy yet are intentionally not rendered: Teaching Approach, Musical Exploration, Audition & Performance Preparation, Student Experience, FAQ.
 

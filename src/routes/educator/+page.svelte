@@ -9,6 +9,11 @@
 	}
 </script>
 
+<!-- Banner: one teaching photo, full width, above the content column -->
+<figure class="banner">
+	<img src="/teaching.jpg" alt={$t.edu.photoAlt} />
+</figure>
+
 <main>
 	<!-- Philosophy -->
 	<section class="hero">
@@ -73,10 +78,25 @@
 </main>
 
 <style>
+	/* --- Banner --- */
+	.banner {
+		width: 100%;
+		aspect-ratio: 2 / 1;
+		overflow: hidden;
+	}
+
+	.banner img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		display: block;
+	}
+
 	main {
 		max-width: 640px;
 		margin: 0 auto;
-		padding: 6rem 1.5rem 4rem;
+		padding: 3rem 1.5rem 4rem;
 		display: flex;
 		flex-direction: column;
 		gap: 4rem;
@@ -327,9 +347,20 @@
 
 	/* --- Desktop --- */
 	@media (min-width: 768px) {
+		/* Inset with rounded corners, like the home page photo. */
+		/* Same width as the content column so it reads as part of the page. */
+		.banner {
+			width: calc(100% - 6rem);
+			max-width: 764px;
+			margin: 6rem auto 0;
+			aspect-ratio: 5 / 2;
+			border-radius: 12px;
+			box-shadow: 0 4px 24px rgba(93, 138, 168, 0.12);
+		}
+
 		main {
 			max-width: 860px;
-			padding: 8rem 3rem 6rem;
+			padding: 3.5rem 3rem 6rem;
 			gap: 5rem;
 		}
 

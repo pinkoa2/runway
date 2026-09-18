@@ -53,12 +53,14 @@ const translations = {
 				},
 			],
 
+			photoAlt: 'Ting-Chen guiding a young student during a cello lesson',
+
 			lessonsHeading: 'Lessons',
 			lessonsIntro: 'I teach beginners, advanced students, and adults.',
 			lessons: [
 				{
 					title: 'Private Cello Lessons',
-					level: 'All levels',
+					level: 'All levels · Remote or in person',
 					lead: 'Lessons are tailored to each student and may include:',
 					items: [
 						'Posture & healthy technique',
@@ -139,12 +141,14 @@ const translations = {
 				},
 			],
 
+			photoAlt: '婷辰在大提琴課中指導小學生',
+
 			lessonsHeading: '課程',
 			lessonsIntro: '教學對象包含初學者、進階學生與成人。',
 			lessons: [
 				{
 					title: '私人大提琴課',
-					level: '適合各程度',
+					level: '適合各程度 · 可線上或實體授課',
 					lead: '課程將依照每位學生的程度、需求與學習目標調整，內容可能包含：',
 					items: [
 						'演奏姿勢與正確技巧',
